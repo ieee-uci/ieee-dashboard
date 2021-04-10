@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\images",
+    "\\src\\images\\who"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\src\\images\\who\\beach_logo.jpg",
   "PreviewInSolutionExplorer": false
 }
