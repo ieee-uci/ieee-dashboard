@@ -1,8 +1,46 @@
 
+
+.collapseChild{
+    display: inline-block;
+    color: white;
+}
+
+
+
+.mmBubble {
+    text-align: center;
+    padding: 30px 5px 30px;
+    border: 1px solid #e44cc4;
+    border-radius: .1875rem;
+    margin: 15px 0;
+    min-height: 168px;
+}
+
+.opsBubble {
+    text-align: center;
+    padding: 30px 5px 30px;
+    border: 1px solid #28a745;
+    border-radius: .1875rem;
+    margin: 15px 0;
+    min-height: 168px;
+}
+
+.projectTitle{
+    text-align: center;
+}
+
+.textSmall{
+    font-size: 12px; 
+}
+
 .logo {
     width: 240px;
 }
 
+.content{
+    margin-left: 100;
+    margin-right: 100; 
+}
 
 .block block-one{
 
