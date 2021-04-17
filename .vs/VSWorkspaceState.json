@@ -2,9 +2,16 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\images",
-    "\\src\\images\\who"
+    "\\src\\assets",
+    "\\src\\assets\\css",
+    "\\src\\assets\\demo",
+    "\\src\\assets\\fonts",
+    "\\src\\assets\\js",
+    "\\src\\assets\\js\\core",
+    "\\src\\assets\\scss",
+    "\\src\\assets\\scss\\black-dashboard",
+    "\\src\\images"
   ],
-  "SelectedNode": "\\src\\images\\who\\beach_logo.jpg",
+  "SelectedNode": "\\src\\script.js",
   "PreviewInSolutionExplorer": false
 }
