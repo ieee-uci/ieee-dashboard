@@ -2,16 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\assets",
     "\\src\\assets\\css",
     "\\src\\assets\\demo",
     "\\src\\assets\\fonts",
     "\\src\\assets\\js",
     "\\src\\assets\\js\\core",
     "\\src\\assets\\scss",
-    "\\src\\assets\\scss\\black-dashboard",
-    "\\src\\images"
+    "\\src\\assets\\scss\\black-dashboard"
   ],
-  "SelectedNode": "\\src\\script.js",
+  "SelectedNode": "\\src\\home.html",
   "PreviewInSolutionExplorer": false
 }
