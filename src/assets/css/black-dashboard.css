@@ -20371,6 +20371,71 @@ Copyright (c) 2015 Daniel Eden
   right: -45px;
 }
 
+//new block colors
+.card-user .author .block.block-g-one {
+    background: rgba(0, 191, 154, 0.6);
+    background: -webkit-linear-gradient(to right, rgba(0, 191, 154, 0.6) 0%, rgba(0, 191, 54, 0) 100%);
+    background: -o-linear-gradient(to right, rgba(0, 191, 154, 0.6) 0%, rgba(0, 191, 54, 0) 100%);
+    background: -moz-linear-gradient(to right, rgba(0, 191, 154, 0.6) 0%, rgba(0, 191, 54, 0) 100%);
+    background: linear-gradient(to right, rgba(0, 191, 154, 0.6) 0%, rgba(0, 191, 54, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=10);
+    -webkit-transform: rotate(150deg);
+    -moz-transform: rotate(150deg);
+    -ms-transform: rotate(150deg);
+    -o-transform: rotate(150deg);
+    transform: rotate(150deg);
+    margin-top: -90px;
+    margin-left: -50px;
+}
+
+.card-user .author .block.block-g-two {
+    background: rgba(0, 191, 154, 0.6);
+    background: -webkit-linear-gradient(to right, rgba(0, 191, 154, 0.6) 0%, rgba(0, 191, 54, 0) 100%);
+    background: -o-linear-gradient(to right, rgba(0, 191, 154, 0.6) 0%, rgba(0, 191, 54, 0) 100%);
+    background: -moz-linear-gradient(to right, rgba(0, 191, 154, 0.6) 0%, rgba(0, 191, 54, 0) 100%);
+    background: linear-gradient(to right, rgba(0, 191, 154, 0.6) 0%, rgba(0, 191, 54, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=10);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+    margin-top: -40px;
+    margin-left: -100px;
+}
+
+.card-user .author .block.block-g-three {
+    background: rgba(0, 191, 154, 0.6);
+    background: -webkit-linear-gradient(to right, rgba(0, 191, 154, 0.6) 0%, rgba(0, 191, 54, 0) 100%);
+    background: -o-linear-gradient(to right, rgba(0, 191, 154, 0.6) 0%, rgba(0, 191, 54, 0) 100%);
+    background: -moz-linear-gradient(to right, rgba(0, 191, 154, 0.6) 0%, rgba(0, 191, 54, 0) 100%);
+    background: linear-gradient(to right, rgba(0, 191, 154, 0.6) 0%, rgba(0, 191, 54, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=10);
+    -webkit-transform: rotate(170deg);
+    -moz-transform: rotate(170deg);
+    -ms-transform: rotate(170deg);
+    -o-transform: rotate(170deg);
+    transform: rotate(170deg);
+    margin-top: -70px;
+    right: -45px;
+}
+
+.card-user .author .block.block-g-four {
+    background: rgba(0, 191, 154, 0.6);
+    background: -webkit-linear-gradient(to right, rgba(0, 191, 154, 0.6) 0%, rgba(0, 191, 54, 0) 100%);
+    background: -o-linear-gradient(to right, rgba(0, 191, 154, 0.6) 0%, rgba(0, 191, 54, 0) 100%);
+    background: -moz-linear-gradient(to right, rgba(0, 191, 154, 0.6) 0%, rgba(0, 191, 54, 0) 100%);
+    background: linear-gradient(to right, rgba(0, 191, 154, 0.6) 0%, rgba(0, 191, 54, 0) 100%);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=10);
+    -webkit-transform: rotate(150deg);
+    -moz-transform: rotate(150deg);
+    -ms-transform: rotate(150deg);
+    -o-transform: rotate(150deg);
+    transform: rotate(150deg);
+    margin-top: -25px;
+    right: -45px;
+}
+
 .card-user .avatar {
   width: 124px;
   height: 124px;
