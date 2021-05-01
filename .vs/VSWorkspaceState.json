@@ -2,14 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\assets\\css",
-    "\\src\\assets\\demo",
-    "\\src\\assets\\fonts",
-    "\\src\\assets\\js",
-    "\\src\\assets\\js\\core",
-    "\\src\\assets\\scss",
-    "\\src\\assets\\scss\\black-dashboard"
+    "\\src\\ops"
   ],
-  "SelectedNode": "\\src\\home.html",
+  "SelectedNode": "\\src\\ops\\fall20_proj2.MP4",
   "PreviewInSolutionExplorer": false
 }
