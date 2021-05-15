@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\images"
+    "\\src\\assets",
+    "\\src\\assets\\js",
+    "\\src\\images",
+    "\\src\\ops"
   ],
-  "SelectedNode": "\\src\\ops",
+  "SelectedNode": "\\src\\script.js",
   "PreviewInSolutionExplorer": false
 }

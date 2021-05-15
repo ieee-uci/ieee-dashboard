@@ -54,6 +54,14 @@ html {
     color: white;
 }
 
+.arcadeBubble {
+    text-align: center;
+    border: 1px solid #ff6e4c;
+    border-radius: .1875rem;
+    margin-top: 2%;
+    padding: 5%;
+    min-height: 168px;
+}
 
 .mmBubble {
     text-align: center;
@@ -99,10 +107,6 @@ html {
     font-size: 12px; 
 }
 
-
-.logo {
-    width: 240px;
-}
 
 .content{
     margin-left: 50;
