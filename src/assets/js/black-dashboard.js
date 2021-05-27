@@ -44,7 +44,7 @@ var seq = 0,
 var seq2 = 0,
   delays2 = 80,
   durations2 = 500;
-
+/*
 (function() {
   var isWindows = navigator.platform.indexOf('Win') > -1 ? true : false;
 
@@ -74,7 +74,7 @@ var seq2 = 0,
     $html.addClass('perfect-scrollbar-off');
   }
 })();
-
+*/
 $(document).ready(function() {
 
   var scroll_start = 0;
