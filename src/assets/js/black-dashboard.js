@@ -76,7 +76,7 @@ var seq2 = 0,
 })();
 */
 $(document).ready(function() {
-
+   /*
   var scroll_start = 0;
   var startchange = $('.row');
   var offset = startchange.offset();
@@ -91,6 +91,7 @@ $(document).ready(function() {
       $(".navbar-minimize-fixed").css('opacity', '0');
     }
   });
+  
 
 
   $(document).scroll(function() {
@@ -110,7 +111,7 @@ $(document).ready(function() {
       $(this).closest('.navbar').addClass('navbar-transparent').removeClass('bg-white');
     });
   }
-
+  */
   blackDashboard.initMinimizeSidebar();
 
   $navbar = $('.navbar[color-on-scroll]');

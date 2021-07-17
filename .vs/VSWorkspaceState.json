@@ -2,12 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\assets",
-    "\\src\\assets\\js",
     "\\src\\images",
-    "\\src\\images\\arcade",
-    "\\src\\ops"
+    "\\src\\images\\board"
   ],
-  "SelectedNode": "\\src\\images\\projects_micromouse.svg",
+  "SelectedNode": "\\src\\images\\board\\profile.jpg",
   "PreviewInSolutionExplorer": false
 }
