@@ -22,6 +22,8 @@
 <body>
     <div class="wrapper ">
         <div class="sidebar" data="blue" data-background-color="white">
+            <script src="board.js"></script>
+
             <div class="ieee_logo">
                 <a href="#home"><img src="images/ieee_uci_logo_trans_white.svg" alt="ieee logo" class="ieee_logo" /></a>
 
@@ -134,6 +136,9 @@
                                             <div class="carousel-item">
                                                 <a href="https://www.strava.com/clubs/uciieee" target="_blank"><img src="images/announcements/strava.png" alt="strava" /></a>
                                             </div>
+                                            <div class="carousel-item">
+                                                <a href="http://www.5gsummit.org/ieeeunited/" target="_blank"><img src="images/events/5g_summit.png" alt="5gsummit" /></a>
+                                            </div>
                                         </div>
                                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -147,11 +152,12 @@
                                 </div>
                             </div>
                             <!--RESUME-->
-                            <div class="alert alert-success resume" style="text-align:center" role="alert">
-                                <a href="https://forms.gle/2uJJsi7ejGnF37USA" target="_blank">
+                            <div class="d-grid gap-1">
+                                <button class="btn btn-success btn-long" type="button" onclick="resume_btn()">
                                     <i class="tim-icons icon-paper" style="color:white"></i>
-                                </a>
-                                Get added to our Resume Book!
+                                    Get added to our Resume Book!
+
+                                </button>
 
                             </div>
                         </div>
@@ -159,7 +165,7 @@
                     </div>
                     <!-- EVENTS -->
                     <div class="row" id="events">
-                        <div class="col-lg-7">
+                        <div class="col-xl-7">
                             <div class="card card-tasks">
                                 <div class=" card-header">
                                     <h2 class="card-title"> Events</h2>
@@ -179,57 +185,26 @@
                                             </tr>
                                             <tr>
                                                 <td width="50%">
-                                                    <p class="title"> Western Digital: Meet the Pros </p>
-                                                    <p class="text-muted">  Learn about Western Digital and their innovations directly from their leaders. Hear from professionals and get their insights on the business, technology, and career opportunities.</p>
+                                                    <p class="title"> IEEE United 5G Student Summit </p>
+                                                    <p class="text-muted">
+                                                        This IEEE 5G Student Summit 2021 by IEEE United SIG student group will provide a unique forum to students, professionals, and user communities to be informed abut emerging technologies and use cases in 5G and beyond.
+
+                                                    </p>
                                                 </td>
                                                 <td>
-                                                    <p class="text"> 5/18</p>
+                                                    <p class="text"> 7/24,7/25</p>
                                                 </td>
                                                 <td>
-                                                    <p class="text"> 4:00-5:00 PM </p>
+                                                    <p class="text"> 8:00AM-1:00PM, 9:30AM-2:00PM </p>
                                                 </td>
                                                 <td>
-                                                    <a class="btn btn-success btn-fab btn-icon btn-simple" href=" https://bit.ly/3ev1Giy" target="_blank">
+                                                    <a class="btn btn-success btn-fab btn-icon btn-simple" href=" https://events.vtools.ieee.org/m/275938" target="_blank">
 
                                                         <i class="tim-icons icon-pencil"></i>
                                                     </a>
                                                 </td>
                                             </tr>
-                                            <tr>
-                                                <td width="50%">
-                                                    <p class="title"> SHPE - Engineers in Space Panel </p>
-                                                    <p class="text-muted"> </p>
-                                                </td>
-                                                <td>
-                                                    <p class="text"> 5/24</p>
-                                                </td>
-                                                <td>
-                                                    <p class="text"> 6:00-7:30 PM </p>
-                                                </td>
-                                                <td>
-                                                    <a class="btn btn-success btn-fab btn-icon btn-simple" href=" https://bit.ly/3ev1Giy" target="_blank">
-
-                                                        <i class="tim-icons icon-pencil"></i>
-                                                    </a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td width="50%">
-                                                    <p class="title"> Week 9: General Meeting/Raspberry Pi Workshop </p>
-                                                    <p class="text-muted"> Learn how to set up your very own Raspberry Pi server!</p>
-                                                </td>
-                                                <td>
-                                                    <p class="text"> 5/28</p>
-                                                </td>
-                                                <td>
-                                                    <p class="text"> 6:00-7:00 PM </p>
-                                                </td>
-                                                <td>
-                                                    <a class="btn btn-success btn-fab btn-icon btn-simple" href=" https://docs.google.com/forms/d/e/1FAIpQLSepaQD2auZ0rTBVBDA8YTuQMWebcggvIOx4xToA70TA726_2Q/viewform" target="_blank">
-                                                        <i class="tim-icons icon-pencil"></i>
-                                                    </a>
-                                                </td>
-                                            </tr>
+                                            
 
                                         </tbody>
                                     </table>
@@ -237,7 +212,7 @@
                             </div>
 
                         </div>
-                        <div class=" col-lg-5">
+                        <div class=" col-xl-5">
                             <div class="card">
                                 <div class="card-body">
                                     <iframe title="calendar" class="calendar" className="calendar" src="https://calendar.google.com/calendar/b/4/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=aWVlZS51Y2lydmluZUBnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=cmo3OTk4aWZwZjNvMDAyMnR1N2dlZzVsaGtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=dWNpY2x1YmFmZmlsaWF0ZXNAZ21haWwuY29t&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=bmV1aHR2NjVqNDNhOWZiZXVkbTE2MTFvbWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=aDFuMW83czllODExMnNzODBiZWFiaG5nOTBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23039BE5&amp;color=%237986CB&amp;color=%230B8043&amp;color=%23E4C441&amp;color=%23009688&amp;color=%23D50000&amp;color=%23E67C73&amp;mode=MONTH"></iframe>
@@ -251,13 +226,13 @@
                 <!-- GET INVOLVED-->
                 <div class="row" id="involved">
 
-                    <div class="col-lg-9">
+                    <div class="col-xl-9">
                         <div class="card horizontal">
-                            <div class="row">
-                                <div class="col-md-8">
+                            <div class="row row-cols">
+                                <div class="col-xl-8">
                                     <img class="card-img-top" src=".\images\who\ieee_soldier.jpg" alt="About image" />
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-xl-4">
                                     <div class="card-body">
                                         <h2 class="card-title" data="green"> Get Involved</h2>
                                         <p class="card-text">
@@ -269,20 +244,32 @@
                         </div>
                     </div>
                     <!-- CONTACT -->
-                    <div class="col-lg-3" style="width: 100%; margin-right: auto; margin-left: auto;" id="contact">
+                    <div class="col-xl-3" style="width: 100%; margin-right: auto; margin-left: auto;" id="contact">
                         <div class="card">
                             <div class="card-header">
                                 <h2>Contact Us </h2>
                             </div>
                             <div class="card-body">
-                                <div class="contact row">
-                                    <a href="https://bit.ly/IEEE-UCI_Discord" target="_blank" class="btn-lg btn-primary contact animation-on-hover" role="button"><b>Discord</b></a>
-                                </div>
-                                <div class="contact row"><a href="http://bit.ly/IEEE-UCI_Facebook" target="_blank" class="btn-lg btn-info contact animation-on-hover" role="button"><b>Facebook</b></a></div>
-                                <div class="contact row"><a href="https://bit.ly/IEEE-UCI_Instagram" target="_blank" class="btn-lg btn-success contact animation-on-hover" role="button"><b>Instagram</b></a></div>
-                                <div class="contact row"><a href="https://bit.ly/IEEE-UCI_YouTube" target="_blank" class="btn-lg btn-danger contact animation-on-hover" role="button"><b>Youtube</b></a></div>
-                                <div class="contact row"><a href="https://ieeeuci.us1.list-manage.com/subscribe/post?u=1db8428cfa01005b3e732b737&amp;id=bb8c036f5b" target="_blank" class="btn-lg btn-warning contact animation-on-hover" role="button"><b>Newsletter</b></a></div>
-                                <div class="contact row"><a href="https://github.com/ieee-uci" target="_blank" class="btn-lg btn-primary contact animation-on-hover" role="button"><b>Github</b></a></div>
+                                    <div class="d-grid mx-auto">
+                                        <button type="button" class="btn btn-primary animation-on-hover btn-long" target="_blank" onclick="discord_btn()">
+                                            Discord
+                                        </button>
+                                        <button type="button" class="btn btn-info  animation-on-hover btn-long" target="_blank" onclick="fb_btn()">
+                                            Facebook
+                                        </button>
+                                        <button type="button" class="btn btn-success animation-on-hover btn-long" target="_blank" onclick="ig_btn()">
+                                            Instagram
+                                        </button>
+                                        <button type="button" class="btn btn-danger animation-on-hover btn-long" target="_blank" onclick="yt_btn()">
+                                            Youtube
+                                        </button>
+                                        <button type="button" class="btn btn-warning animation-on-hover btn-long" target="_blank" onclick="news_btn()">
+                                            Newsletter
+                                        </button>
+                                        <button type="button" class="btn btn-primary animation-on-hover btn-long" target="_blank" onclick="github_btn()">
+                                            Github
+                                        </button>
+                                    </div>
                             </div>
 
                         </div>
@@ -351,7 +338,13 @@
                                         <br />
                                         <hr class="solid" />
                                         <br />
-                                        <h3>Fall 2020</h3>
+                                        <h3>Fall 2021</h3>
+                                        <p class="text">
+                                            OPS will resume in Fall 2021. Applications TBA!
+                                        </p>
+                                            <hr class="solid" />
+                                            <br />
+                                            <h3>Fall 2020</h3>
                                         <p class="text">
                                             Thank you to all our participants in our Pilot OPS program 2020! We’ve shared some notable videos of each of the four projects here:
                                         </p>
@@ -423,18 +416,17 @@
                                         <hr class="solid" />
                                         <br />
                                         <h3>Contact</h3>
-                                        <div class="row">
-                                            <div class="col-lg-5">
-                                                <div class="card card-user ">
-                                                    <div class="card-body ">
-                                                        <div class="author ">
+                                        <div class="row row-cols-2">
+                                            <div class="col">
+                                                <div class="card card-user profile">
+                                                    <div class="card-body">
+                                                        <div class="author">
                                                             <div class="block block-g-one"></div><div class="block block-g-two"></div><div class="block block-g-three"></div><div class="block block-g-four"></div>
-                                                            <a href="https://www.linkedin.com/in/johnyu2000/" target="_blank">
-                                                                <img class="avatar" src="images/board/john.jpg" alt="john" />
-                                                                <h4 class="title">John Yu</h4>
-                                                                <p class="description">johny11@uci.edu</p>
-                                                                <p class="description">@TotallyNotJohno#0658</p>
-
+                                                            <a href="https://www.linkedin.com/in/lily-johnson-808068169/" target="_blank">
+                                                                <img class="avatar" src="images/board/lily.jpg" alt="lily" />
+                                                                <h4 class="title">Lily Johnson</h4>
+                                                                <p class="description"> lilyaj@uci.edu</p>
+                                                                <p class="description">@larj#5183</p>
                                                             </a>
                                                         </div>
                                                         <div class="card-description" style="text-align: center">
@@ -442,17 +434,17 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-2"></div>
-                                            <div class="col-lg-5">
-                                                <div class="card card-user ">
+                                            <div class="col"></div>
+                                            <div class="col">
+                                                <div class="card card-user profile">
                                                     <div class="card-body ">
                                                         <div class="author ">
                                                             <div class="block block-g-one"></div><div class="block block-g-two"></div><div class="block block-g-three"></div><div class="block block-g-four"></div>
-                                                            <a href="https://www.linkedin.com/in/samuel-deans-615270192/" target="_blank">
-                                                                <img class="avatar" src="images/board/sam_d.jpg" alt="sam deans" />
-                                                                <h4 class="title">Samuel Deans</h4>
-                                                                <p class="description">sdeans@uci.edu</p>
-                                                                <p class="description">@Sam Deans#5747</p>
+                                                            <a href="" target="_blank">
+                                                                <img class="avatar" src="images/board/profile.jpg" alt="alex z" />
+                                                                <h4 class="title">Alex Zhang</h4>
+                                                                <p class="description"> azhangji@uci.edu</p>
+                                                                <p class="description">@Ale#7151</p>
                                                             </a>
                                                         </div>
                                                         <div class="card-description" style="text-align: center">
@@ -512,29 +504,31 @@
                                         <hr class="solid" />
                                         <br />
                                         <h3>Contact</h3>
+                                        <div class="row microbar" >
+                                            <div class="" style="margin-right:2%"><a href="https://www.facebook.com/groups/153805515376853" target="_blank" class="btn-simple btn-info animation-on-hover" role="button"><b>Facebook</b></a></div><br />
+                                            <div class=""><a href="https://github.com/micromouseuci/UCI-Micromouse" target="_blank" class="btn-simple btn-primary animation-on-hover" role="button"><b>Github</b></a></div>
+                                        </div>
+                                        <br/>
+
                                         <div class="row">
-                                            <div class="col-lg-5">
-                                                <div class="card card-user">
-                                                    <div class="card-body">
-                                                        <div class="author">
-                                                            <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
-                                                            <a href="https://www.linkedin.com/in/lowj/" target="_blank">
-                                                                <img class="avatar" src="images/board/jlow.png" alt="jlow" />
-                                                                <h4 class="title">Jonathan Low</h4>
-                                                                <p class="description"> jwlow@uci.edu</p>
-                                                                <p class="description">@jon#2727</p>
-                                                            </a>
-                                                        </div>
-                                                        <div class="card-description" style="text-align: center">
-                                                        </div>
+                                            <div class="card card-user profile">
+                                                <div class="card-body ">
+                                                    <div class="author">
+                                                        <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
+                                                        <a href="https://www.linkedin.com/in/lowj/" target="_blank">
+                                                            <img class="avatar" src="images/board/jlow.png" alt="jlow" />
+                                                            <h4 class="title">Jonathan Low</h4>
+                                                            <p class="description"> jwlow@uci.edu</p>
+                                                            <p class="description">@jon#2727</p>
+                                                        </a>
+                                                    </div>
+                                                    <div class="card-description" style="text-align: center">
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-5">
-                                                <div class="contact row"><a href="https://www.facebook.com/groups/153805515376853" target="_blank" class="btn-simple btn-info contact animation-on-hover" role="button"><b>Facebook</b></a></div>
-                                                <div class="contact row"><a href="https://github.com/micromouseuci/UCI-Micromouse" target="_blank" class="btn-simple btn-primary contact animation-on-hover" role="button"><b>Github</b></a></div>
-                                            </div>
                                         </div>
+
+
                                     </div>
                                     <div class="tab-pane" id="arcade">
                                         <br />
@@ -644,11 +638,10 @@
                         </div>
                         <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
                             <div class="card-body">
-                                <div class="row">
+                                <div class="row row-cols-5">
                                     <!--Row 1-->
-                                    <div class="col-md-1"></div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -664,8 +657,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -681,8 +674,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -698,8 +691,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -715,8 +708,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -733,13 +726,9 @@
                                         </div>
                                     </div>
 
-                                </div>
-                                <div class="row">
-                                    <!--Row 2-->
 
-                                    <div class="col-md-1"></div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -755,8 +744,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -772,8 +761,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -789,8 +778,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -807,8 +796,8 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -824,11 +813,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row"> <!--Row 3-->
-                                    <div class="col-md-1"></div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -844,8 +830,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -861,8 +847,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -878,8 +864,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -915,10 +901,9 @@
                         </div>
                         <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
                             <div class="card-body">
-                                <div class="row">
-                                    <div class="col-md-1"></div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                <div class="row row-cols-5">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -929,13 +914,13 @@
                                                     </a>
                                                 </div>
                                                 <div class="card-description" style="text-align: center">
-                                                    EE<br />
+                                                    Electrical Engineering<br />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -946,13 +931,13 @@
                                                     </a>
                                                 </div>
                                                 <div class="card-description" style="text-align: center">
-                                                    CSE<br />
+                                                    Computer Science & Engineering<br />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -963,13 +948,13 @@
                                                     </a>
                                                 </div>
                                                 <div class="card-description" style="text-align: center">
-                                                    CS<br />
+                                                    Computer Science<br />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -980,13 +965,13 @@
                                                     </a>
                                                 </div>
                                                 <div class="card-description" style="text-align: center">
-                                                    CSE<br />
+                                                    Computer Science & Engineering<br />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -997,16 +982,13 @@
                                                     </a>
                                                 </div>
                                                 <div class="card-description" style="text-align: center">
-                                                    CS<br />
+                                                    Computer Science<br />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-1"></div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -1017,13 +999,13 @@
                                                     </a>
                                                 </div>
                                                 <div class="card-description" style="text-align: center">
-                                                    CSE<br />
+                                                    Computer Science & Engineering<br />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -1034,13 +1016,13 @@
                                                     </a>
                                                 </div>
                                                 <div class="card-description" style="text-align: center">
-                                                    CSE<br />
+                                                    Computer Science & Engineering<br />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -1051,13 +1033,13 @@
                                                     </a>
                                                 </div>
                                                 <div class="card-description" style="text-align: center">
-                                                    ME<br />
+                                                    Mechanical Engineering<br />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -1068,13 +1050,13 @@
                                                     </a>
                                                 </div>
                                                 <div class="card-description" style="text-align: center">
-                                                    CpE<br />
+                                                    Computer Engineering<br />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-2">
-                                        <div class="card card-user">
+                                    <div class="col">
+                                        <div class="card card-user profile">
                                             <div class="card-body">
                                                 <div class="author">
                                                     <div class="block block-one"></div><div class="block block-two"></div><div class="block block-three"></div><div class="block block-four"></div>
@@ -1085,7 +1067,7 @@
                                                     </a>
                                                 </div>
                                                 <div class="card-description" style="text-align: center">
-                                                    CpE<br />
+                                                    Computer Engineering<br />
                                                 </div>
                                             </div>
                                         </div>

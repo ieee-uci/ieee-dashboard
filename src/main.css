@@ -1,4 +1,7 @@
 
+.btn-long{
+    width:100%;
+}
 
 .calendar {
     filter: invert(5%);
@@ -6,6 +9,10 @@
     min-height: 50vh; 
     object-fit: fill; 
 
+}
+
+.card-user{
+    min-width: 140px;
 }
 
 .card.horizontal{
@@ -16,11 +23,10 @@
     top: 5%; 
 }
 
-.contact.row {
-    width: 70%;
+.contact {
+    width:90%;
+    margin-right: auto; 
     margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10%;
 }
 
 b{
@@ -63,6 +69,11 @@ html {
     min-height: 168px;
 }
 
+.microbar {
+    margin-bottom:2%;
+    align-items: flex-end;
+}
+
 .mmBubble {
     text-align: center;
     border: 1px solid #e44cc4;
@@ -92,6 +103,10 @@ html {
     width: 70%; 
 }
 
+.profile{
+    width: 200px;
+}
+
 .projectTitle{
     margin-top: 5%;
     text-align: center;
@@ -116,4 +131,9 @@ html {
 
 .home{
     filter:brightness(125%); 
+}
+
+.vl {
+    border-left: 1px solid white;
+    height: 2ev;
 }
