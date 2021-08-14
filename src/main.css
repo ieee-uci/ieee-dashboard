@@ -11,6 +11,9 @@
 
 }
 
+.card-title{
+    font-weight: bold;
+}
 .card-user{
     min-width: 140px;
 }
@@ -41,6 +44,14 @@ html {
     scroll-behavior: smooth; 
 }
 
+.ieee-logo{
+    margin-left: 10%;
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    object-position: 50% 30%;
+}
+
 .main-panel:before {
     content: "";
     display: block;
@@ -54,6 +65,25 @@ html {
     z-index: 0;
 }
 
+.ops-header {
+    border-bottom: 1px solid #00bf9a;
+    height: 10%;
+    overflow: hidden;
+}
+
+.ops-sidebar {
+    margin-left:10%;
+    position: fixed;
+    z-index:1;
+}
+
+.ops-main-panel {
+    position: relative;
+    margin-left: 25%;
+    padding-right:15%;
+    width: 50%;
+    min-height: 100vh;
+}
 
 .collapseChild{
     display: inline-block;
