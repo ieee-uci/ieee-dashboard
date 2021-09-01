@@ -28,3 +28,11 @@ function github_btn() {
 function resume_btn() {
     window.open("https://forms.gle/2uJJsi7ejGnF37USA", "_blank");
 }
+
+function ops_btn() {
+    window.open("./ops.html", "_blank");
+}
+
+function ops_apply_btn() {
+    window.open("https://forms.gle/MWch2AWkFiTdyf6v5", "_blank");
+}
