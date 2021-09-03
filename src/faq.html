@@ -16,18 +16,35 @@
     <link href="assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
     <link href="assets/css/black-dashboard.min.css" rel="stylesheet" />
     <link href="./main.css" rel="stylesheet" />
+    <link href="./ops.css" rel="stylesheet" />
     <script src="script.js"></script>
 
 </head>
 <body>
-    <nav class="ops-header" >
+    <nav class="navbar ops-header" style="overflow:visible">
         <a href="./home.html"><img src="images/ieee_uci_logo_trans_white.svg" alt="ieee logo" class="ieee-logo" /></a>
+        <div class="offcanvas-header" style="margin-right: 10%">
+            <div class="btn-group">
+                <button class="btn btn-simple btn-close float-end btn-success dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-md-start" aria-labelledby="dropdownMenu1" style="right: 10%">
+                    <li><a href="./ops.html" class="dropdown-item ">About</a></li>
+                    <li><a href="./projects.html" class="dropdown-item">Projects</a></li>
+                    <li><a href="./resources.html" class="dropdown-item">Resources</a></li>
+                    <li><a href="./faq.html" class="dropdown-item active">FAQ</a></li>
+                    <li><a href="./contact.html" class="dropdown-item">Contact Us</a></li>
+                </ul>
+            </div>
 
+        </div>
     </nav>
-    <br/>
+    <br />
     <div class="container-fluid">
         <div class="row flex-xl-nowrap">
-            <div class="col-6 col-md-3 col-xl-2 ops-sidebar">
+            <div class="col-6 col-md-3 col-xl-2 ops-sidebar mobile-offcanvas" id="navbar_main">
                 <div class="ieee_logo">
                     <a href="./ops.html"><img src="./images/ops/OPSLogo.png" alt="ieee logo" class="ieee_logo" /></a>
 
@@ -37,27 +54,27 @@
                     <li class="nav-item">
                         <a href="./ops.html" class="nav-link text-white"> About</a>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item ">
                         <a href="./projects.html" class="nav-link text-white ">Projects</a>
                     </li>
                     <li class="nav-item">
                         <a href="./resources.html" class="nav-link text-white">Resources</a>
                     </li>
                     <li class="nav-item">
-                        <a href="./faq.html" class="nav-link active" style="background-color: rgb(0, 242, 195, .8)"> FAQ</a>
+                        <a href="./faq.html" class="nav-link text-white active" aria-current="about" style="background-color: rgb(0, 242, 195, .8)">FAQ</a>
                     </li>
                     <li class="nav-item">
                         <a href="./contact.html" class="nav-link text-white">Contact Us</a>
                     </li>
                 </ul>
-                <br/>
+                <br />
                 <div class="col-12">
                     <a class="btn btn-success btn-simple btn-fab" href="https://forms.gle/MWch2AWkFiTdyf6v5" target="_blank" style="color:white"> Apply Now! </a>
                 </div>
 
             </div>
-            <div class="col-1"></div>
-            <div class="col-6 ops-main-panel" >
+            <div class="col-xl-4"></div>
+            <div class="col-xl-6 col-md-12 ops-main-panel">
                 <div class="content">
                     <div class="container-fluid">
                         <div class="row" id="about">
@@ -205,7 +222,7 @@
                             </div>
 
                         </div>
-                        
+
                     </div>
                 </div>
 

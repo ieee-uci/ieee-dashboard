@@ -88,17 +88,15 @@ html {
 }
 
 .ops-sidebar {
-    margin-left:10%;
+    margin-left:9%;
     position: fixed;
     z-index:1;
 }
 
 .ops-main-panel {
     position: relative;
-    margin-left: 25%;
-    padding-right:15%;
-    width: 50%;
     min-height: 100vh;
+    margin-bottom: 20%; 
 }
 
 .collapseChild{
