@@ -3,10 +3,8 @@
     "",
     "\\src",
     "\\src\\assets",
-    "\\src\\assets\\css",
-    "\\src\\images",
-    "\\src\\images\\ops"
+    "\\src\\assets\\css"
   ],
-  "SelectedNode": "\\src\\images",
+  "SelectedNode": "\\src",
   "PreviewInSolutionExplorer": false
 }
